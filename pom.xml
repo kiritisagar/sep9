@@ -13,10 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
  
-        <sonar.host.url>http://100.26.231.107:9000</sonar.host.url>
-        <sonar.organization>sagar</sonar.organization>
-        <sonar.projectKey>sagar</sonar.projectKey>
-        <sonar.login>sqp_ab3d6f92f91bdce9c02ca0d82b57890365f574c7</sonar.login>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>git-jenkis</sonar.organization>
+        <sonar.projectKey>git-jenkis_jenkins</sonar.projectKey>
+        <sonar.login>bd05f1496a26ce37832bbb99924caebba1094451</sonar.login>
        
     </properties>
 
