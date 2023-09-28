@@ -3,11 +3,6 @@ pipeline {
     tools {
          maven 'maven'
          jdk 'java'
-    }
-    stages {
-        stage('Stage-0 : Static Code Analysis Using SonarQube') { 
-           steps {
-                sh 'mvn clean verify sonar:sonar'
             }
         }
 
@@ -44,8 +39,5 @@ pipeline {
          stage('Stage-7 : Install') { 
             steps {
                 sh 'mvn install'
-            }
-        }
-
     }
 }
