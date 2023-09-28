@@ -13,10 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
  
-        <sonar.host.url>http://54.160.108.156:9000</sonar.host.url>
-        <sonar.organization>8amDev</sonar.organization>
-        <sonar.projectKey>8amDev</sonar.projectKey>
-        <sonar.login>sqp_8a22ff7a30d752280bedd671460141fcd046153b</sonar.login>
+        <sonar.host.url>http://100.26.231.107:9000</sonar.host.url>
+        <sonar.organization>sagar</sonar.organization>
+        <sonar.projectKey>sagar</sonar.projectKey>
+        <sonar.login>sqp_ab3d6f92f91bdce9c02ca0d82b57890365f574c7</sonar.login>
        
     </properties>
 
@@ -24,13 +24,13 @@
     <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
+        <name>libs-snapshot-local</name>
+        <url>http://52.4.226.172:8082/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
     <repository>
         <id>releases</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
+        <name>libs-release-local</name>
+        <url>http://52.4.226.172:8082/artifactory/libs-release-local/</url>
     </repository>	
 </distributionManagement>
     -->
