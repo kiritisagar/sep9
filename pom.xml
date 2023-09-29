@@ -26,30 +26,27 @@
         <id>snapshots</id>
         <name>ip-172-31-95-17-snapshots</name>
         <url>http://44.201.177.141:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <distributionManagement>
     <repository>
-        <id>releases</id>
-        <name>ip-172-31-95-17-releases</name>
-        <url>http://44.201.177.141:8081/artifactory/libs-release-local</url>
-    </repository>	
-</distributionManagement>
-    -->
-    
-<distributionManagement>
-    
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-95-17-snapshots</name>
-        <url>http://44.201.177.141:8081/artifactory/libs-snapshot-local/</url>
-    </snapshotRepository>
-    
-    <repository>
-        <id>releases</id>
+        <id>central</id>
         <name>ip-172-31-95-17-releases</name>
         <url>http://44.201.177.141:8081/artifactory/libs-release-local</url>
     </repository>
-
-</distributionManagement>    
+    </distributionManagement>
+    -->
+    
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-95-17-snapshots</name>
+        <url>http://44.201.177.141:8081/artifactory/libs-snapshot-local</url>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-95-17-releases</name>
+        <url>http://44.201.177.141:8081/artifactory/libs-release-local</url>
+    </repository>
+    </distributionManagement>
     
     
     <dependencies>
