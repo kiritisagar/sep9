@@ -14,9 +14,9 @@
         <maven.compiler.target>11</maven.compiler.target>
  
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>sagarmuna</sonar.organization>
-        <sonar.projectKey>sagarmuna_sagarmunna</sonar.projectKey>
-        <sonar.login>009e02e784647be8e441f4e3cd7dc2c8200b127f</sonar.login>
+        <sonar.organization>hellowordwq</sonar.organization>
+        <sonar.projectKey>hellowordwq_sagarmunna</sonar.projectKey>
+        <sonar.login>aa0aee0278e8b14a421aa3ca86f1b37ffa1d2f3e</sonar.login>
        
     </properties>
 
@@ -39,14 +39,14 @@
     
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-89-42-snapshots</name>
-        <url>http://44.204.26.250:8081/artifactory/libs-snapshot/</url>
+        <name>ip-172-31-20-188-snapshots</name>
+        <url>http://3.145.145.157:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     
     <repository>
         <id>central</id>
-        <name>ip-172-31-89-42-releases</name>
-        <url>http://44.204.26.250:8081/artifactory/libs-release-local</url>
+        <name>ip-172-31-20-188-releases</name>
+        <url>http://3.145.145.157:8081/artifactory/libs-release-local</url>
     </repository>
 
 </distributionManagement>    
