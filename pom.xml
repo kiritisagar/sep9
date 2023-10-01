@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>8amDevOpssag</artifactId>
+    <artifactId>8amDevOps</artifactId>
     <version>3.6.3-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Cloud Binary - Project Sample Spring MVC Application</name>
@@ -19,21 +19,6 @@
         <sonar.login>aa0aee0278e8b14a421aa3ca86f1b37ffa1d2f3e</sonar.login>
        
     </properties>
-
-    <!--
-    <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-snapshots</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-snapshot</url>
-    </snapshotRepository>
-    <repository>
-        <id>releases</id>
-        <name>a0bdlik6tnfce-artifactory-primary-0-releases</name>
-        <url>https://devopskesav.jfrog.io/artifactory/libs-releases</url>
-    </repository>	
-</distributionManagement>
-    -->
     
 <distributionManagement>
     
