@@ -53,12 +53,12 @@ pipeline {
         }
           stage('Stage-9 : Deployment - Deploy a Artifact devops-2.0.0-SNAPSHOT.war file to Tomcat Server') { 
             steps {
-                sh 'curl -u admin:redhat@123 -T target/**.war "http://3.141.44.139:8080/manager/text/deploy?path=/8amDevOps&update=true"'
+                sh 'curl -u admin:redhat@123 -T target/**.war "http://18.232.126.175:8080/manager/text/deploy?path=/8amDevOps&update=true"'
             }
         } 
           stage('Stage-10 : SmokeTest') { 
             steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://3.141.44.139:8080/8amDevOps"'
+                sh 'curl --retry-delay 10 --retry 5 "http://18.232.126.175:8080/8amDevOps"'
             }
         }
 
