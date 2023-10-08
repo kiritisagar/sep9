@@ -2,7 +2,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>8amDevOps</artifactId>
+    <artifactId>Sagardev</artifactId>
     <version>3.6.4-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Cloud Binary - Project Sample Spring MVC Application</name>
@@ -14,9 +14,9 @@
         <maven.compiler.target>11</maven.compiler.target>
  
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.organization>nani</sonar.organization>
-        <sonar.projectKey>nani_sagar</sonar.projectKey>
-        <sonar.login>6fe6a24e9364a3838c70b5a4a706a863eb108e01</sonar.login>
+        <sonar.organization>munna</sonar.organization>
+        <sonar.projectKey>munna_munna</sonar.projectKey>
+        <sonar.login>926f2f334f779e87993d5c7c06ce12887513e6f0</sonar.login>
        
     </properties>
     
@@ -24,14 +24,14 @@
     
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-20-188-snapshots</name>
-        <url>http://3.15.19.107:8081/artifactory/libs-snapshot-local</url>
+        <name>ip-172-31-48-250-snapshots</name>
+        <url>http://18.206.202.140:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
     
     <repository>
         <id>central</id>
-        <name>ip-172-31-20-188-releases</name>
-        <url>http://3.15.19.107:8081/artifactory/libs-release-local</url>
+        <name>ip-172-31-48-250-releases</name>
+        <url>http://18.206.202.140:8081/artifactory/libs-release-local</url>
     </repository>
 
 </distributionManagement>    
