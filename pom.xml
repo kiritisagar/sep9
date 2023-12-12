@@ -5,7 +5,7 @@
     <artifactId>sagarmunnaa</artifactId>
     <version>1.0.0</version>
     <packaging>war</packaging>
-    <name>Cloud Binary Sample Spring MVC Application</name>
+    <name>sagar munna Spring MVC Application</name>
 
     <properties>
         <junit.platform.version>1.2.0</junit.platform.version>
