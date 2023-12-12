@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
     <artifactId>8amDevOps</artifactId>
-    <version>3.4.4-SNAPSHOT</version>
+    <version>4.4.4-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>sagar devops Spring MVC Application</name>
 
